@@ -53,10 +53,17 @@ If not → it’s blocked..
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tFD1nNM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+What Does “Inspecting Network Protocols” Mean?
+
+When we say “inspecting network protocols,” it means checking and analyzing the data that’s moving between computers to understand what kind of communication is happening and how it’s behaving.
+
+Think of it as looking inside the envelope (the data packet) to see:
+	•	Who sent it
+	•	Who it’s going to
+	•	What type of message it carries (like a web page, an email, or a video stream).
 </p>
 <br />
 
