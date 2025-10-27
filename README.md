@@ -33,10 +33,22 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tCiT82F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+A Network Security Group (or NSG) in Azure works like a virtual security guard for your cloud network.
+It controls which traffic is allowed in or out of your Virtual Machines (VMs).
+
+Think of it like the security checkpoint at the front gate of your Azure network.
+Only approved “cars” (data) are allowed to enter or leave.
+Imagine you built a small neighborhood in Azure:
+		Each house = one Virtual Machine (VM)
+		The road between houses = the Virtual Network (VNet)
+		The security guard at the gate = the NSG
+
+The NSG checks every car (network packet) that wants to enter or exit.
+If it’s on the approved list (rules) → it passes.
+If not → it’s blocked..
 </p>
 <br />
 
