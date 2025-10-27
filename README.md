@@ -25,10 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+
 
 <h2>Actions and Observations</h2>
 
@@ -61,16 +58,49 @@ What Does “Inspecting Network Protocols” Mean?
 When we say “inspecting network protocols,” it means checking and analyzing the data that’s moving between computers to understand what kind of communication is happening and how it’s behaving.
 
 Think of it as looking inside the envelope (the data packet) to see:
-	•	Who sent it
-	•	Who it’s going to
-	•	What type of message it carries (like a web page, an email, or a video stream).
+		Who sent it
+		Who it’s going to
+		What type of message it carries (like a web page, an email, or a video stream).
+	 Simple Example
+
+Imagine the internet as a big highway 🛣️ where cars = data packets.
+Each car carries information following a certain rule (protocol).
+
+Examples of protocols:
+		HTTP/HTTPS → Web traffic (websites)
+		SMTP → Email
+		FTP → File transfer
+		DNS → Translating website names to IP addresses
+
+“Inspecting network protocols” means watching those cars on the road and checking:
+		What kind of cars are passing (which protocol)
+		Where they’re going
+		Whether they’re allowed to pass (security check)
+
+⸻
+
+ Why It’s Important
+
+Inspecting protocols helps IT systems and firewalls:
+		Keep networks safe — by detecting suspicious or harmful traffic.
+		Ensure rules are followed — for example, only web traffic (HTTP) is allowed, not file-sharing (FTP).
+		Troubleshoot problems — like finding out why a connection isn’t working.
+
+⸻
+
+ In Azure or Firewalls
+
+When Azure tools (like NSG or firewalls) inspect network protocols, they:
+		Look at each packet’s header (where it’s from, where it’s going, and what type it is).
+		Decide whether to allow or block it based on protocol and port rules.
+
+⸻
+
+ In Simple Words
+
+“Inspecting network protocols” means looking closely at the traffic moving between computers to see what type it is and whether it’s safe or allowed to pass through.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
